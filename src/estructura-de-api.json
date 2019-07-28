@@ -1,0 +1,61 @@
+[{
+    "_id": "5d31f02fc62356006fafe94e",
+    "name": "Casita La Escalonia",
+    "title": "Charming Garden Loft",
+    "mainPicture": {
+        "_id": "5d31e99c51ce652bfcc2a630",
+        "urlPhoto": "https://viaguate.com/wp-content/uploads/2019/06/8e996031-b536-41dc-b1b5-be246c670b64-800x600.jpg"
+    },
+    "basePrice": 120,
+    "noBedroom": 1,
+    "noBathroom": 1,
+    "capacityOfPeople": 3,
+    "address": {
+        "realAddress": "5a Avenida Sur, Antigua"
+    }
+}, {
+    "_id": "5d321fedc62356006fafe954",
+    "name": "Casa Panorama",
+    "title": "Hillside Villa with Stunning Views",
+    "mainPicture": {
+        "_id": "5d321c3f51ce652bfcc2a635",
+        "urlPhoto": "https://viaguate.com/wp-content/uploads/2019/05/Casa-Panorama-Pool-800x600.jpg"
+    },
+    "basePrice": 320,
+    "noBedroom": 3,
+    "noBathroom": 3,
+    "capacityOfPeople": 10,
+    "address": {
+        "realAddress": "Santa Catarina Palopó"
+    }
+}, {
+    "_id": "5d3226aac62356006fafe959",
+    "name": "Casa Rustica",
+    "title": "Romantic Hilltop Villa with Views",
+    "mainPicture": {
+        "_id": "5d3222ac51ce652bfcc2a63a",
+        "urlPhoto": "https://viaguate.com/wp-content/uploads/2019/05/Casa-Rustica-Bedroom-Views-800x600.jpg"
+    },
+    "basePrice": 145,
+    "noBedroom": 1,
+    "noBathroom": 1,
+    "capacityOfPeople": 10,
+    "address": {
+        "realAddress": "Santa Catarina Palopó"
+    }
+}, {
+    "_id": "5d3319e6c62356006fafe95e",
+    "name": "Suite La Mini",
+    "title": "Cozy loft in the heart of Antigua",
+    "mainPicture": {
+        "_id": "5d32360351ce652bfcc2a63f",
+        "urlPhoto": "https://viaguate.com/wp-content/uploads/2019/03/suitelamini-008-800x600.jpg"
+    },
+    "basePrice": 35,
+    "noBedroom": 1,
+    "noBathroom": 1,
+    "capacityOfPeople": 2,
+    "address": {
+        "realAddress": "4a Avenida Norte, Antigua"
+    }
+}]

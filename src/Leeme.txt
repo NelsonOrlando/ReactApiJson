@@ -1,0 +1,10 @@
+Para para que el proyecto entra en funcionamiento debemos instalar
+los sigueintes paquetes de NPM
+
+1.    npm install                                       =>           Instalar todas las dependencias de npm
+2.    npm install react-bootstrap bootstrap             =>           comando para instalar react bootstrap si en
+                                                                     dado caso no se instala con el comando anterior
+3.    npm i --save @fortawesome/fontawesome
+      npm i --save @fortawesome/react-fontawesome                    Instalar el paquete de fontawesome para los iconos
+      npm i --save @fortawesome/fontawesome-free-solid
+      npm i --save @fortawesome/fontawesome-free-regular

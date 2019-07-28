@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0px;
+}
+
+body {
+  color: #A5A1A0;
+}
+
+.container {
+  padding: 0px;
+}
+
+/* ----- ----- header Style ----- ----- */
+.header {
+  width: 100%;
+  height: 115px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 135px;
+  height: 60px;
+  border: 1px solid #A5A1A0;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.btn-header {
+  width: 130px;
+  height: 45px;
+  border-radius: 10px;
+  margin-left: 10px;
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  border: 2px solid #A5A1A0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-header:nth-child(2) {
+  margin-left: 0px;
+}
+
+.btn-header:hover {
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+
+.square {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #A5A1A0;
+  margin-right: 5px;
+}
+
+.p-header {
+  margin-right: 10px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.nav-icon {
+  color: #000;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.border-b {
+  width: 100%;
+  height: 1px;
+  background-color: #cfcfcf;
+}
+
+@media screen and (min-width: 576px) {
+
+}
+
+/* ----- ----- content style ----- ----- */
+.search-section h1 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.input-search {
+  width: 315px;
+  height: 50px;
+  border: 2px solid #A5A1A0;
+  border-radius: 10px;
+}
+
+.input-search input {
+  width: 280px;
+  height: auto;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  padding: 0px 10px;
+}
+
+.search-icon {
+  color: #000;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.price-section {
+  padding-bottom: 30px;
+}
+
+.price-section h1 {
+  font-size: 20px;
+}
+
+.bar-select {
+  width: 60px;
+  height: 30px;
+  border: 1px solid #A5A1A0;
+  border-radius: 25px;
+  position: relative;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.bar {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #ebebeb;
+  border-radius: 50%;
+  border: 1px solid #A5A1A0;
+  top: -1px;
+  left: -1px;
+  cursor: pointer;
+}
+
+.btn-main {
+  width: 110px;
+  height: 40px;
+  border-radius: 10px;
+  margin-left: 15px;
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid #A5A1A0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-main:nth-child(1) {
+  margin-left: 0px;
+}
+
+.btn-main:last-child {
+  width: 150px;
+}
+
+.btn-main:hover {
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+
+
+/* ----- ----- Card Style ===== ===== */
+.bg-color {
+  background-color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+img {
+  width: 100%;
+}
+
+.card {
+  width: 100%;
+  /* box-shadow: 2px 5px 10px 2px #888888; */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.card-img {
+  width: 100%;
+  height: 220px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.card-price {
+  width: 100%;
+  height: 35px;
+  font-size: 13px;
+  color: #fff;
+  font-weight: 500;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 185px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.card-price span {
+  font-size: 16px;
+  padding-right: 5px;
+}
+
+.card-icon-Ilike {
+  font-size: 20px;
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.card-offer {
+  width: 70px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #FFB041;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+}
+
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-body {
+  width: 100%;
+  height: 100%;
+  min-height: 130px;
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 13px;
+  color: #797979;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.card-text {
+  font-size: 12px;
+  color: #8d8d8d;
+}
+
+.separator {
+  width: 100%;
+  height: 2px;
+  background-color: #cfcfcf;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.card-date-icon {
+  font-size: 15px;
+}
+
+.card-desc-icon {
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.col {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+
+}
